@@ -23,7 +23,7 @@ font:inherit;
     border-radius: 4px;
 }
 .actions :hover{
-    color:chocolate;
+    color:lightslategray;
 }
 .image {
    width: 500px;
@@ -37,3 +37,14 @@ font:inherit;
     width:90%;
     height:100%;
  } 
+
+ .item {
+    margin: 1rem 0;
+  }
+  .content h3 {
+    font-size: 1.25rem;
+    color: #2c292b;
+  }
+  .actions button:active {
+    background-color: #ffe2ed;
+  }
