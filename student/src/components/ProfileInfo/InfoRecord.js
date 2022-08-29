@@ -3,9 +3,11 @@ import classes from "./InfoRecord.module.css";
 function InfoRecord(props) {
   return (
         <li className={classes.item}>
+           
           <div className={classes.image}>
-              <img src={props.image} alt={props.name} />
+              <img src={props.image} alt="Image not found" />
           </div>
+       
           <div className={classes.content}>
               <h3>{props.title}</h3>
               <p>Name of student:{props.name}</p>
@@ -19,6 +21,8 @@ function InfoRecord(props) {
                   Shortlist individual
               </button>
           </div>
+          <br/>
+          <br/>
       </li>
   );
 }

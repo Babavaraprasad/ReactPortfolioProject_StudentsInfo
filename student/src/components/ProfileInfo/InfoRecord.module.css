@@ -25,3 +25,15 @@ font:inherit;
 .actions :hover{
     color:chocolate;
 }
+.image {
+   width: 500px;
+   height: 400px;
+    overflow: hidden;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    
+  }
+ img{
+    width:90%;
+    height:100%;
+ } 
