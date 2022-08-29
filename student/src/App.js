@@ -13,7 +13,7 @@ function App() {
       <Maincomponent />
       <Switch>
         <Route path="/" exact={true}>
-          <Profileinfo />
+          <Profileinfo/>
         </Route>
         <Route path="/add_new" exact={true} >
           <Addnew />
