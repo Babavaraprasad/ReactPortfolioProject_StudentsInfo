@@ -6,11 +6,12 @@ import Profileinfo from "./Pages/ProfileInfo";
 import Addnew from "./Pages/AddNew";
 import Shortlist from "./Pages/Shortlisted";
 import Faq from "./Pages/Faq";
+import Layout from "./components/Maincomponent/Layout";
 
 function App() {
   return (
-    <div>
-      <Maincomponent />
+   
+    <Layout>
       <Switch>
         <Route path="/" exact={true}>
           <Profileinfo/>
@@ -25,7 +26,8 @@ function App() {
           <Faq />
         </Route>
       </Switch>
-    </div>
+      </Layout>
+  
   );
 }
 
