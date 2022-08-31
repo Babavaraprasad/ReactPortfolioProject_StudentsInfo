@@ -1,10 +1,12 @@
+import Addstudent from '../components/ProfileInfo/AddStudent';
 
 function AddNew()
 {
     return (
-    <header>
-        <h2>students Add</h2>
-    </header>
+    <section>
+        <h1>Add Students</h1>
+        <Addstudent/>
+        </section>
     )
 };
 export default AddNew;
