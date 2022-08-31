@@ -10,17 +10,16 @@ import Layout from "./components/Maincomponent/Layout";
 
 function App() {
   return (
-   
     <Layout>
       <Switch>
         <Route path="/" exact={true}>
           <Profileinfo/>
         </Route>
         <Route path="/add_new" exact={true} >
-          <Addnew />
+          <Addnew/>
         </Route>
         <Route path="/shortlist" exact={true}>
-          <Shortlist />
+          <Shortlist/>
         </Route>
         <Route path="/faq" exact={true}>
           <Faq />
