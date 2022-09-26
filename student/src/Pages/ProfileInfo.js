@@ -30,6 +30,12 @@ Address:"Aarhus,denmark,4890",
     }
 ]
 
+/*function getstudentdata()
+{
+    fetch( 'https://react-studentsbiodata-default-rtdb.firebaseio.com/biodata.json' )
+    .then(response => response.json) 
+}
+*/
 
 function ProfileInfo(props)
 {

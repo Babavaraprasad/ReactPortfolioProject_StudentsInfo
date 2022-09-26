@@ -34,7 +34,7 @@ function AddStudent(props) {
         address:enteredaddress,
         image:enteredimage
     };
-    //console.log(wholedata);
+    console.log(wholedata);
 
    props.something(wholedata);
     }

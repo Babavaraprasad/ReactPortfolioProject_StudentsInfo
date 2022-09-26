@@ -1,7 +1,11 @@
 import AddStudent from '../components/ProfileInfo/AddStudent';
+import {useHistory} from 'react-router-dom';
 
 function AddNew()
 {
+   const history=useHistory();
+
+
    function addstudentdatahandler(wholedata){
    fetch('https://react-studentsbiodata-default-rtdb.firebaseio.com/biodata.json',
    {
@@ -10,8 +14,13 @@ function AddNew()
     headers:
     {'Content-Type':'application/json'
     }
+   }).then(()=>{
+    history.replace('/');
    });
    }
+
+
+
 
     return (
     <section>
